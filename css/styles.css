@@ -146,6 +146,9 @@ nav{
     margin-left:0;
     padding-left:0;
     justify-content:center;
+    background-image: url(/images/backphoto.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
 }
 
 .title{
@@ -219,7 +222,7 @@ nav{
 }
 
 
-.services-title{
+.section-title{
     font-weight:700;
     font-size:36px;
     line-height:1.17;
@@ -246,17 +249,9 @@ nav{
     background-color: #F5F4FA;
 }
 
-.team-title{
-    font-weight:700;
-    font-size:36px;
-    line-height:1.17;
-    text-align:center;
-    letter-spacing:0.03em;
-}
 
 .team-photos{
     display:flex;
-    padding-top:50px;
     justify-content:space-between;
     flex-basis:1170px;
     max-width:1170px;
