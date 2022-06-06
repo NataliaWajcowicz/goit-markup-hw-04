@@ -161,7 +161,7 @@ nav{
     margin-left:0;
     padding-left:0;
     justify-content:center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/backphoto.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(./images/backphoto.jpg);
     background-repeat:no-repeat;
     background-position:center;
 }
