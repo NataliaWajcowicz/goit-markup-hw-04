@@ -67,7 +67,7 @@ figure{
 }
 
 nav{
-    margin-right:371px;
+    margin-right:345px;
 }
 .menu{
     display:flex;
@@ -131,10 +131,19 @@ nav{
     justify-content:flex-end;
 }
 
+.contact-item{
+    display:flex;
+    flex-wrap:nowrap;
+}
 
 .contact-mail{
-    padding-right:50px;
+    padding-right:30px;
     flex-basis:110px;
+    padding-left:10px;
+}
+
+.contact-tel{
+    padding-left:10px;
 }
 .header{
     background-color: var(--dark-background-color);
@@ -303,36 +312,85 @@ nav{
     color:#757575;
 }
 
+.team-social-list{
+    display:flex;
+    justify-content:center;
+
+}
+
+.team-social-item:not(:last-child){
+    padding-right: 22px;
+}
+.team-social-icon{
+    fill:#757575;
+}
+
+.team-social-icon:hover,
+.team-social-icon:focus{
+    fill: var(--brand-color);
+}
+
+.client-list{
+    display:flex;
+}
+
+.client-item{
+    padding-right:94px;
+}
+
+.client-logo{
+    fill: #AFB1B8;
+}
+.client-logo:hover,
+.client-logo:focus{
+    fill: var(--brand-color);
+}
+
 footer{
     background-color:var(--dark-background-color);
     font-size:14px;
     line-height:1.71;
     letter-spacing:0.03em;
     color: var(--light-color);
+    height:252px;
 }
 
-footer>.container>.logo{
-    display:inline-block;
-    margin-top:60px;
-    margin-bottom:20px;
+.footer-section{
+    display:flex;
+}
+.address-section{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.footer-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top:60px;
+    padding-bottom:20px;
+    display:flex;
 }
 
 .address{
     width:246px;
     height:81px;
+    display:flex;
+    flex-direction:column;
 }
 
 .address-item{
-    margin-top:9px;
+    margin-bottom:9px;
+    display:inline-block;
 }
 
-.address:first-child{
-    margin-top:0px;
-}
-
-.address:last-child{
-    padding-bottom:60px;
-}
 
 .address-tel,
 .address-mail{
@@ -345,6 +403,44 @@ footer>.container>.logo{
 .address-mail:focus,
 .address-mail:hover{
     color:var(--brand-color);
+}
+
+.footer-social{
+    padding-left:70px;
+    padding-top:72px;
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-social-list{
+    display:flex;
+}
+
+.footer-social-item{
+    display:inline-block;
+}
+.footer-social-item:not(:first-child){
+    padding-left:22px;
+}
+
+.footer-social-icon{
+    fill:var(--light-color);
+}
+
+.footer-social-icon:hover,
+.footer-social-icon:focus{
+    fill: var(--brand-color);
+}
+
+.footer-social-title{
+    font-weight:700;
+    font-size:14px;
+    line-height:1.14;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    color: var(--light-color);
+    margin-bottom:0px;
+    padding-bottom:32px;
 }
 
 .filters{
@@ -366,6 +462,7 @@ footer>.container>.logo{
 .filters-item:last-child{
     margin-right:0;
 }
+
 .button{
  background-color:#F5F4FA;
  color:#212121;
