@@ -395,15 +395,12 @@ nav{
 .client-logo{
     fill: #AFB1B8;
 }
-.client-logo:hover,
-.client-logo:focus{
-    fill: var(--brand-color);
-}
 
 .client-item:hover,
-.client-item:focus{
+.client-item:focus,{
     border: 1px solid var(--brand-color);
 }
+
 
 footer{
     background-color:var(--dark-background-color);
