@@ -50,6 +50,10 @@ figure{
     padding:0;
 }
 
+button{
+    border:0px;
+}
+
 .menu-section{
     border-bottom: 1px solid #ECECEC;
 }
@@ -158,10 +162,12 @@ nav{
     align-items:center;
     height:600px;
     flex-basis:1600px;
+    max-width:1600px;
     margin-left:0;
     padding-left:0;
     justify-content:center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/backphoto.jpg);
+    background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
 }
@@ -204,7 +210,6 @@ nav{
     display:flex;
     font-size:14px;
     letter-spacing: 0.03em;
-    flex-basis:1170px;
 }
 
 .feature-item{
@@ -255,7 +260,7 @@ nav{
 }
 
 .services{
-    width:1170px;
+    padding-top:0;
 }
 
 
@@ -290,8 +295,6 @@ nav{
 .team-photos{
     display:flex;
     justify-content:space-between;
-    flex-basis:1170px;
-    max-width:1170px;
 }
 
 
@@ -343,7 +346,7 @@ nav{
 .team-social-list{
     display:flex;
     justify-content:center;
-
+    padding-bottom:30px;
 }
 
 .team-social-item{
@@ -468,6 +471,10 @@ footer{
     flex-direction:column;
 }
 
+.footer-social-title{
+    margin-top:0;
+}
+
 .footer-social-list{
     display:flex;
     justify-content: center;
@@ -510,7 +517,6 @@ footer{
 }
 
 .filters{
-    flex-basis:1170px;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -557,7 +563,6 @@ footer{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
-    flex-basis:1170px;
     margin-left:0;
     margin-top:-34px;
 }
