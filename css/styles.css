@@ -368,8 +368,8 @@ nav{
 .team-social-item:focus{
     background-color: var(--brand-color);
 }
-.team-social-icon:hover,
-.team-social-icon:focus{
+.team-social-item:hover svg,
+.team-social-item:focus svg{
     fill: var(--light-color);
 }
 
@@ -397,10 +397,14 @@ nav{
 }
 
 .client-item:hover,
-.client-item:focus,{
+.client-item:focus{
     border: 1px solid var(--brand-color);
 }
 
+.client-item:hover svg,
+.client-item:focus svg{
+    fill:var(--brand-color)
+}
 
 footer{
     background-color:var(--dark-background-color);
