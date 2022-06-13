@@ -163,7 +163,8 @@ nav{
     height:600px;
     flex-basis:1600px;
     max-width:1600px;
-    margin-left:0;
+    margin-left:auto;
+    margin-right:auto;
     padding-left:0;
     justify-content:center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/backphoto.jpg);
